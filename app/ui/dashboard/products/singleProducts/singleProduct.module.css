@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .infoContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imgContainer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formContainer input,
+  .formContainer textarea,
+  .formContainer select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .formContainer label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .formContainer textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* NEW: Submit Button Styling */
+  .submitButton {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #006666;
+  }
+  

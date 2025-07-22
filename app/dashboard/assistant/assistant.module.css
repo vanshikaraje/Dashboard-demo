@@ -1,0 +1,93 @@
+.assistantContainer {
+  text-align: center;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.logo {
+  width: 80px;
+  margin: 0 auto 1rem;
+}
+
+.voice {
+  width: 50px;
+  height: 50px;
+  margin: 1rem auto;
+  display: none;
+}
+
+.btn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.name {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.va {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.chatContainer {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.chatBox {
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.chatBubble {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 12px;
+  max-width: 75%;
+}
+
+.user {
+  background-color: #e5e7eb;
+  margin-left: auto;
+}
+
+.assistant {
+  background-color: #bbf7d0;
+  margin-right: auto;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+.chatInput {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.sendBtn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

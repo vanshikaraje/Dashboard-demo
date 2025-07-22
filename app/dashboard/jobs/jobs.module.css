@@ -1,0 +1,43 @@
+/* app/dashboard/jobs/jobs.module.css */
+.jobsContainer {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .jobPosts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .jobCard {
+    width: 300px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jobImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .jobDetails {
+    padding: 10px;
+  }
+  
+  .jobDetails h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .jobDetails p {
+    font-size: 14px;
+    color: #777;
+  }
+  

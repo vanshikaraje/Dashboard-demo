@@ -1,0 +1,67 @@
+/* app/dashboard/transactions/transactions.module.css */
+
+/* Container for the entire transaction section */
+.transactionsContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* List of transactions with gap between each card */
+.transactionList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Styling for each transaction card */
+.transactionCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Hover effect to give some interactivity */
+.transactionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Influencer name (bold and larger font) */
+.transactionCard h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Description text of the transaction */
+.transactionCard p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Styling for transaction type text */
+.transactionCard p.transactionType {
+  font-weight: 600;
+  color: #007bff; /* blue color for transaction type */
+}
+
+/* Styling for the amount */
+.transactionCard p.amount {
+  font-weight: 600;
+  color: #28a745; /* green color for the amount */
+}
+
+/* Styling for the date */
+.transactionCard p.date {
+  color: #888;
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: italic;
+}

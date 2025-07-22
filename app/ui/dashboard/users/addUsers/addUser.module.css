@@ -1,0 +1,80 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Title + Category side by side */
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row input,
+.row select {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Other inputs */
+.forms input,
+.forms select,
+.forms textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.forms input:focus,
+.forms select:focus,
+.forms textarea:focus,
+.row input:focus,
+.row select:focus {
+    outline: none;
+    border-color: teal;
+    box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.2);
+}
+
+.forms textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+/* Submit button */
+.forms button {
+    width: 100%;
+    padding: 14px 0;
+    background-color: teal;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forms button:hover {
+    background-color: #007878;
+}

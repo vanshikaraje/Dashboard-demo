@@ -1,0 +1,88 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .addButton {
+    padding: 10px 16px;
+    background-color: #5d57c9;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #4a44b5;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table thead td {
+    font-weight: bold;
+    padding: 12px 10px;
+    background-color: var(--bgMedium);
+  }
+  
+  .table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  
+  .products {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .productImage {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view {
+    background-color: teal;
+  }
+  
+  .view:hover {
+    background-color: #007777;
+  }
+  
+  .delete {
+    background-color: crimson;
+  }
+  
+  .delete:hover {
+    background-color: #a30000;
+  }
+  

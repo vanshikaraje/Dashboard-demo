@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e374a;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Prevent it from being too wide */
+}
+
+.input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}

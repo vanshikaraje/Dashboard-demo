@@ -1,0 +1,103 @@
+.container {
+  padding: 20px;
+  min-height: 100vh;
+  width: 250px;
+  background-color: #2e374a; /* Dark blue background */
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.userDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.userTitle {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.category {
+  font-weight: 600;
+  margin: 10px 0 6px;
+  display: block;
+  font-size: 13px;
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #eee;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.25s ease;
+  background-color: transparent;
+}
+
+.menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(3px);
+  color: #ffffff;
+}
+
+.menuItem:hover .icon {
+  color: #fff;
+}
+
+.icon {
+  font-size: 18px;
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.logout {
+  padding: 12px 14px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff6a6a;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.logout:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  transform: scale(1.03);
+}
