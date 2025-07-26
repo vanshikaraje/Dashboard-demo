@@ -34,7 +34,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 This dashboard is actively being developed. Core features like analytics and voice assistant are functional. Additional admin tools, authentication, and data integrations are planned in future updates.
 
-## 🤝 Contributing0..
+## 🤝 Contributing0.
 
 Contributions are welcome! If you'd like to propose a feature or fix a bug, feel free to open an issue or submit a pull request.
 
