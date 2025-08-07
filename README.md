@@ -41,4 +41,4 @@ Contributions are welcome! If you'd like to propose a feature or fix a bug, feel
 
 ---
 
-Made with 💡 by [Vanshika Rajput](https://github.com/vanshikaraje)
+Made with  by [Vanshika Rajput](https://github.com/vanshikaraje)
